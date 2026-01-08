@@ -123,8 +123,8 @@ def create_pdf_from_images(folder_path, output_pdf, quality=85, max_dimension=20
 
 if __name__ == "__main__":
     # 配置参数
-    folder_path = r"熟肉\IMG\(C90) [Dogear (Inumimi Moeta)] Nick Wilde - 尼克・怀尔德 (Zootopia) [Chinese] [Sans个人汉化]"  # 替换为你的图片文件夹路径
-    output_pdf = r"熟肉\PDF\(C90) [Dogear (Inumimi Moeta)] Nick Wilde - 尼克・怀尔德 (Zootopia) [Chinese] [Sans个人汉化].pdf"    # 替换为想要的输出文件名
+    folder_path = r"熟肉\IMG\[逃亡者x新桥月白日语社] (HARUCC23) [Dogear (犬耳もえ太)] やわらかな傷痕 (ズートピア)"  # 替换为你的图片文件夹路径
+    output_pdf = r"熟肉\PDF\[逃亡者x新桥月白日语社] (HARUCC23) [Dogear (犬耳もえ太)] やわらかな傷痕 (ズートピア).pdf"    # 替换为想要的输出文件名
     
     # 压缩参数（根据需要调整）
     jpeg_quality = 75      # 图片压缩质量 (0-100)，建议75-85
