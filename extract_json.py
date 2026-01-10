@@ -1,3 +1,8 @@
+# 这个脚本是用来解析团子翻译器生成的JSON文件的
+# 会把每个JSON文件按照text_block解析成txt
+# 方便后续发送给LLM进行翻译
+# 当然，这里也可以直接调用api形式的LLM，后续可能会考虑完善这个功能（？
+
 import os
 import json
 

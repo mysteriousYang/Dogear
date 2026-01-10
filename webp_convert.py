@@ -1,4 +1,4 @@
- 
+# 这个脚本用于把当前目录下所有的webp格式图片转换为png或jpg
 # 功能 : 将当前工作目录下所有webp格式转为png or jpg
 # -*- coding: UTF-8 -*-
 import os

@@ -1,3 +1,6 @@
+# 这个脚本可以用来制作PDF文件
+# 负责将单个文件夹下的所有图片转换为PDF
+
 import os
 import re
 from io import BytesIO

@@ -1,3 +1,6 @@
+# 这个脚本是用来拆解PDF文件的
+# 它可以把某个PDF拆成若干PNG图像
+
 import os
 import fitz  # PyMuPDF
 from PIL import Image
@@ -71,8 +74,8 @@ if __name__ == "__main__":
     output_directory = "I_m_all_you_ニクジュディ成人向け再録集"  # 替换为输出目录路径
     
     # 高级设置 (根据需要调整)
-    resolution = 200  # DPI (推荐150-300)
-    image_quality = 95  # PNG质量 (0-100, 越高文件越大)
+    resolution = 500  # DPI (推荐150-300)
+    image_quality = 100  # PNG质量 (0-100, 越高文件越大)
     
     # 执行转换
     pdf_to_png(pdf_file, output_directory, resolution, image_quality)

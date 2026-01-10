@@ -1,3 +1,7 @@
+# 这个脚本是用来生成PDF文件的
+# 它可以把某个给定目录下所有的子文件夹全部生成为对应名称的PDF文件
+# 是的，它用于把IMG文件夹下的本子转换到PDF文件夹下
+
 import os
 import re
 from io import BytesIO
@@ -126,7 +130,7 @@ def batch_folders_to_pdfs(root_dir, out_dir,
 # ---------------------------
 
 if __name__ == "__main__":
-    input_dir = r"熟肉/IMG"      # 你的图片根目录
-    output_dir = r"熟肉/PDF"  # PDF 输出目录
+    input_dir = r"生肉/IMG"      # 你的图片根目录
+    output_dir = r"生肉/PDF"  # PDF 输出目录
 
     batch_folders_to_pdfs(input_dir, output_dir)
